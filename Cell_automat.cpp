@@ -4,6 +4,7 @@
 
 #include "Cell_automat.h"
 #include <windows.h>
+#include <iostream>
 
 Cell_automat::Cell_automat(int number){
     Cell_automat::SizeofBox = number;
@@ -15,8 +16,18 @@ void Cell_automat::init(std::vector<std::pair<int, int>> &input){
 }
 void Cell_automat::display(){
     while(true){
-        Sleep(2000);
-        //print;
+        system("cls");
+        for(int i = 1;i < Cell_automat::SizeofBox + 1;i++){
+            for(int j = 1;j < Cell_automat::SizeofBox + 1;j++){
+                if(Cell_automat::cell_map[i][j]==false)
+                    std::cout << ' ';
+                else
+                    std::cout << '*';
+                if(j == Cell_automat::SizeofBox)
+                    std::cout << std::endl;
+            }
+        }
+        Sleep(500);
         Cell_automat::update();
     }
 }

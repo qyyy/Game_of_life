@@ -3,10 +3,10 @@
 
 int main() {
     int number;
-    std::cout << "请输入空间大小" << std::endl;
+    std::cout << "Please input the space size:" << std::endl;
     std::cin >> number;
     Cell_automat cell(number);
-    std::cout << "请输入初始状态中存活的细胞的坐标，以-1，-1结束"  << endl;
+    std::cout << "Please input the location(x,y) of the alive cell, input (-1,-1) to finish:"  << std::endl;
     std::vector<std::pair<int, int>> input;
     bool flag = true;
     int x, y;
