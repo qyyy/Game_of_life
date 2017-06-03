@@ -16,7 +16,6 @@ private:
     std::vector<std::vector<bool>> cell_map;
     int SizeofBox;
     void update();
-    bool judge_alive(int x, int y);
     int count_around_alive(int x, int y);
 };
 
