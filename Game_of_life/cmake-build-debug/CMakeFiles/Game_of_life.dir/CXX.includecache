@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-D:/Game_of_life/main.cpp
-iostream
--
-main/Cell_automat.h
-D:/Game_of_life/main/Cell_automat.h
-
-D:/Game_of_life/main/Cell_automat.cpp
+D:/Game_of_life/Cell_automat.cpp
 Cell_automat.h
-D:/Game_of_life/main/Cell_automat.h
+D:/Game_of_life/Cell_automat.h
 windows.h
 -
 iostream
 -
 
-D:/Game_of_life/main/Cell_automat.h
+D:/Game_of_life/Cell_automat.h
 vector
 -
+
+D:/Game_of_life/main.cpp
+iostream
+-
+Cell_automat.h
+D:/Game_of_life/Cell_automat.h
 
