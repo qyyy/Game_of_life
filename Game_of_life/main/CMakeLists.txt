@@ -1,0 +1,1 @@
+add_library(Cell_automat_lib Cell_automat.cpp)

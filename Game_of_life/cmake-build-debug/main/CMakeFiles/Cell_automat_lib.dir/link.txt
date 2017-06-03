@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libCell_automat_lib.a  CMakeFiles/Cell_automat_lib.dir/Cell_automat.cpp.obj
+C:\MinGW\bin\ranlib.exe libCell_automat_lib.a

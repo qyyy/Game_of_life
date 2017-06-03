@@ -1,0 +1,14 @@
+# Target labels
+ googletest
+# Source files and their labels
+D:/Game_of_life/cmake-build-debug/googletest-download/CMakeFiles/googletest
+D:/Game_of_life/cmake-build-debug/googletest-download/CMakeFiles/googletest.rule
+D:/Game_of_life/cmake-build-debug/googletest-download/CMakeFiles/googletest-complete.rule
+D:/Game_of_life/cmake-build-debug/googletest-download/googletest-prefix/src/googletest-stamp/googletest-install.rule
+D:/Game_of_life/cmake-build-debug/googletest-download/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule
+D:/Game_of_life/cmake-build-debug/googletest-download/googletest-prefix/src/googletest-stamp/googletest-download.rule
+D:/Game_of_life/cmake-build-debug/googletest-download/googletest-prefix/src/googletest-stamp/googletest-update.rule
+D:/Game_of_life/cmake-build-debug/googletest-download/googletest-prefix/src/googletest-stamp/googletest-patch.rule
+D:/Game_of_life/cmake-build-debug/googletest-download/googletest-prefix/src/googletest-stamp/googletest-configure.rule
+D:/Game_of_life/cmake-build-debug/googletest-download/googletest-prefix/src/googletest-stamp/googletest-build.rule
+D:/Game_of_life/cmake-build-debug/googletest-download/googletest-prefix/src/googletest-stamp/googletest-test.rule

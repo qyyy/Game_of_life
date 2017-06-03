@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Game_of_life"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\gtest\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\googletest-src\;CMake Files\cmake-build-debug\googletest-src\googlemock\;CMake Files\cmake-build-debug\googletest-src\googletest\;CMake Files\cmake-build-debug\googletest-src\googletest\cmake\;CMake Files\main\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Game_of_life/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="D:/Game_of_life/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="D:/Game_of_life/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Game_of_life/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Game_of_life">
+				<Option output="D:/Game_of_life/cmake-build-debug/Game_of_life.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Game_of_life/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 Game_of_life"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Game_of_life/fast">
+				<Option output="D:/Game_of_life/cmake-build-debug/Game_of_life.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Game_of_life/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 Game_of_life/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Game_of_life/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="D:/Game_of_life/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="D:/Game_of_life/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="D:/Game_of_life/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cell_automat">
+				<Option output="D:/Game_of_life/cmake-build-debug/gtest/cell_automat.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Game_of_life/cmake-build-debug/gtest"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Game_of_life/gtest/../main"/>
+					<Add directory="D:/Game_of_life/cmake-build-debug/googletest-src/googletest/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 cell_automat"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cell_automat/fast">
+				<Option output="D:/Game_of_life/cmake-build-debug/gtest/cell_automat.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Game_of_life/cmake-build-debug/gtest"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Game_of_life/gtest/../main"/>
+					<Add directory="D:/Game_of_life/cmake-build-debug/googletest-src/googletest/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 cell_automat/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Game_of_life/cmake-build-debug/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Game_of_life/cmake-build-debug/googletest-src/googlemock/include"/>
+					<Add directory="D:/Game_of_life/cmake-build-debug/googletest-src/googlemock"/>
+					<Add directory="D:/Game_of_life/cmake-build-debug/googletest-src/googletest/include"/>
+					<Add directory="D:/Game_of_life/cmake-build-debug/googletest-src/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Game_of_life/cmake-build-debug/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Game_of_life/cmake-build-debug/googletest-src/googlemock/include"/>
+					<Add directory="D:/Game_of_life/cmake-build-debug/googletest-src/googlemock"/>
+					<Add directory="D:/Game_of_life/cmake-build-debug/googletest-src/googletest/include"/>
+					<Add directory="D:/Game_of_life/cmake-build-debug/googletest-src/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Game_of_life/cmake-build-debug/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Game_of_life/cmake-build-debug/googletest-src/googlemock/include"/>
+					<Add directory="D:/Game_of_life/cmake-build-debug/googletest-src/googlemock"/>
+					<Add directory="D:/Game_of_life/cmake-build-debug/googletest-src/googletest/include"/>
+					<Add directory="D:/Game_of_life/cmake-build-debug/googletest-src/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Game_of_life/cmake-build-debug/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Game_of_life/cmake-build-debug/googletest-src/googlemock/include"/>
+					<Add directory="D:/Game_of_life/cmake-build-debug/googletest-src/googlemock"/>
+					<Add directory="D:/Game_of_life/cmake-build-debug/googletest-src/googletest/include"/>
+					<Add directory="D:/Game_of_life/cmake-build-debug/googletest-src/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Game_of_life/cmake-build-debug/googletest-src/googletest/include"/>
+					<Add directory="D:/Game_of_life/cmake-build-debug/googletest-src/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Game_of_life/cmake-build-debug/googletest-src/googletest/include"/>
+					<Add directory="D:/Game_of_life/cmake-build-debug/googletest-src/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Game_of_life/cmake-build-debug/googletest-src/googletest/include"/>
+					<Add directory="D:/Game_of_life/cmake-build-debug/googletest-src/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Game_of_life/cmake-build-debug/googletest-src/googletest/include"/>
+					<Add directory="D:/Game_of_life/cmake-build-debug/googletest-src/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Cell_automat_lib">
+				<Option output="D:/Game_of_life/cmake-build-debug/main/libCell_automat_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Game_of_life/cmake-build-debug/main"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 Cell_automat_lib"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Cell_automat_lib/fast">
+				<Option output="D:/Game_of_life/cmake-build-debug/main/libCell_automat_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Game_of_life/cmake-build-debug/main"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 Cell_automat_lib/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Game_of_life/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Game_of_life/cmake-build-debug/googletest-src/googlemock/src/gmock-all.cc">
+			<Option target="gmock_main"/>
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="D:/Game_of_life/cmake-build-debug/googletest-src/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="D:/Game_of_life/cmake-build-debug/googletest-src/googletest/src/gtest-all.cc">
+			<Option target="gmock_main"/>
+			<Option target="gmock"/>
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="D:/Game_of_life/cmake-build-debug/googletest-src/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="D:/Game_of_life/gtest/cell_automat.cpp">
+			<Option target="cell_automat"/>
+		</Unit>
+		<Unit filename="D:/Game_of_life/main.cpp">
+			<Option target="Game_of_life"/>
+		</Unit>
+		<Unit filename="D:/Game_of_life/main/Cell_automat.cpp">
+			<Option target="Game_of_life"/>
+			<Option target="Cell_automat_lib"/>
+		</Unit>
+		<Unit filename="D:/Game_of_life/main/Cell_automat.h">
+			<Option target="Game_of_life"/>
+		</Unit>
+		<Unit filename="D:/Game_of_life/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/Game_of_life/gtest/CmakeLists.txt">
+			<Option virtualFolder="CMake Files\gtest\"/>
+		</Unit>
+		<Unit filename="D:/Game_of_life/gtest/CMakeLists.txt.in">
+			<Option virtualFolder="CMake Files\gtest\"/>
+		</Unit>
+		<Unit filename="D:/Game_of_life/cmake-build-debug/googletest-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\"/>
+		</Unit>
+		<Unit filename="D:/Game_of_life/cmake-build-debug/googletest-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\"/>
+		</Unit>
+		<Unit filename="D:/Game_of_life/cmake-build-debug/googletest-src/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googlemock\"/>
+		</Unit>
+		<Unit filename="D:/Game_of_life/cmake-build-debug/googletest-src/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googlemock\"/>
+		</Unit>
+		<Unit filename="D:/Game_of_life/cmake-build-debug/googletest-src/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googlemock\"/>
+		</Unit>
+		<Unit filename="D:/Game_of_life/cmake-build-debug/googletest-src/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\"/>
+		</Unit>
+		<Unit filename="D:/Game_of_life/cmake-build-debug/googletest-src/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\"/>
+		</Unit>
+		<Unit filename="D:/Game_of_life/cmake-build-debug/googletest-src/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\"/>
+		</Unit>
+		<Unit filename="D:/Game_of_life/cmake-build-debug/googletest-src/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\"/>
+		</Unit>
+		<Unit filename="D:/Game_of_life/cmake-build-debug/googletest-src/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="D:/Game_of_life/cmake-build-debug/googletest-src/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="D:/Game_of_life/cmake-build-debug/googletest-src/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="D:/Game_of_life/cmake-build-debug/googletest-src/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="D:/Game_of_life/main/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\main\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
